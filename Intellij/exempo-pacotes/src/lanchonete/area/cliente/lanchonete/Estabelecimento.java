@@ -9,7 +9,7 @@ public class Estabelecimento {
         Cozinheiro cozinheiro = new Cozinheiro();
 
         //ações que estabelecimento precisa ter ciência
-        cozinheiro.adicionarSucoNoBalcao();;
+        cozinheiro.adicionarSucoNoBalcao();
         cozinheiro.adicionarLancheNoBalcao();
         cozinheiro.adicionarComboNoBalcao();
 
