@@ -12,6 +12,6 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma
 * Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
 
 ## 
-<a>Códiodo do projeto na pasta src/uml/poo</a>
+<a href="https://github.com/SamuelBLuna/dio-java-basico/tree/main/Intellij/aulas-intellij/src/uml/poo">Códiodo do projeto na pasta src/uml/poo</a>
 </br>
-<a>UML na pasta src/uml/</a>
+<a href="https://github.com/SamuelBLuna/dio-java-basico/tree/main/Intellij/aulas-intellij/src/uml">UML na pasta src/uml/</a>
