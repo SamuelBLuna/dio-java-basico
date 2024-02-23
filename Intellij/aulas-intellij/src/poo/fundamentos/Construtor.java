@@ -1,17 +1,17 @@
 package poo.fundamentos;
 
-public class Construtores {
+public class Construtor {
 
-    String nome;
-    int idade;
-    char sexo;
-    double altura;
+    private String nome;
+    private int idade;
+    private char sexo;
+    private double altura;
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
+    private void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -19,7 +19,7 @@ public class Construtores {
         return idade;
     }
 
-    public void setIdade(int idade) {
+    private void setIdade(int idade) {
         this.idade = idade;
     }
 
@@ -27,7 +27,7 @@ public class Construtores {
         return sexo;
     }
 
-    public void setSexo(char sexo) {
+    private void setSexo(char sexo) {
         this.sexo = sexo;
     }
 
@@ -35,7 +35,16 @@ public class Construtores {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    private void setAltura(double altura) {
         this.altura = altura;
+    }
+
+    public Construtor() {}
+
+   public Construtor(String nome, int idade, char sexo, double altura) {
+        setNome(nome);
+        setIdade(idade);
+        setSexo(sexo);
+        setAltura(altura);
     }
 }
